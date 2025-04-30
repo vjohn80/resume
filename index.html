@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigi Kuruvilla - Professional Resume</title>
+    <style>
+        :root {
+            --primary-color: #1a365d; /* Navy blue - professional and trustworthy */
+            --secondary-color: #2a4365; /* Darker blue for contrast */
+            --accent-color: #4299e1; /* Light blue for highlights */
+            --text-color: #2d3748; /* Dark gray for main text */
+            --light-bg: #f7fafc; /* Light background */
+            --heading-color: #1a365d; /* Navy for headings */
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Calibri', 'Segoe UI', 'Roboto', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #fff;
+            color: var(--text-color);
+            line-height: 1.6;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        
+        .resume-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .header {
+            border-bottom: 4px solid var(--primary-color);
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .header h1 {
+            color: var(--primary-color);
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 0.2rem;
+        }
+        
+        .header h2 {
+            color: var(--accent-color);
+            font-size: 18px;
+            font-weight: normal;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.5rem;
+            color: var(--text-color);
+            font-size: 14px;
+        }
+        
+        section {
+            margin-bottom: 1.5rem;
+        }
+        
+        .section-title {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.3rem 0.6rem;
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 0.8rem;
+            border-radius: 3px;
+        }
+        
+        .summary {
+            padding: 0.5rem 0;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .skill-category {
+            margin-bottom: 0.7rem;
+        }
+        
+        .skill-category h3 {
+            color: var(--primary-color);
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 0.3rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.2rem;
+        }
+        
+        .skill-list {
+            display: block;
+            line-height: 1.4;
+        }
+        
+        .experience-item {
+            margin-bottom: 1.2rem;
+        }
+        
+        .experience-item .title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.2rem;
+        }
+        
+        .experience-item h3 {
+            color: var(--primary-color);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .experience-item h4 {
+            color: var(--secondary-color);
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 0.2rem;
+        }
+        
+        .experience-item .location {
+            color: var(--accent-color);
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .experience-item .date {
+            color: var(--secondary-color);
+            font-size: 14px;
+            font-weight: normal;
+        }
+        
+        .experience-item ul {
+            padding-left: 1.2rem;
+            margin-top: 0.4rem;
+        }
+        
+        .experience-item li {
+            margin-bottom: 0.3rem;
+            font-size: 14px;
+        }
+        
+        .education-item {
+            margin-bottom: 0.8rem;
+        }
+        
+        .education-item h3 {
+            color: var(--primary-color);
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 0.1rem;
+        }
+        
+        .education-item p {
+            font-size: 14px;
+            margin-bottom: 0.2rem;
+        }
+        
+        .core-competencies {
+            margin-top: 1rem;
+        }
+        
+        .competencies-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .competency-item {
+            background-color: var(--light-bg);
+            border-left: 3px solid var(--accent-color);
+            padding: 0.3rem 0.6rem;
+            font-size: 14px;
+            border-radius: 0 3px 3px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header class="header">
+            <h1>VIGI KURUVILLA</h1>
+            <h2>Senior Director of Software Engineering</h2>
+            <div class="contact-info">
+                <span>Alpharetta, Georgia, United States</span>
+                <span>vigijohn@gmail.com</span>
+                <span>www.linkedin.com/in/vigikuruvilla-2931911</span>
+            </div>
+        </header>
+        
+        <section class="summary">
+            <p>Innovative software engineering leader with proven success driving strategic initiatives and fostering technical excellence across multiple engineering teams. Expert in modernizing legacy systems, implementing quality-focused development processes, and building high-performing technical teams. Combines strategic vision with hands-on technical expertise to deliver exceptional results, address complex challenges efficiently, and maintain competitive advantage through continuous innovation.</p>
+        </section>
+        
+        <section class="technical-skills">
+            <div class="section-title">TECHNICAL SKILLS</div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-list">Java, JavaScript, TypeScript, Python, PHP, Perl, NextJS, React, Express, Java Grails, JSP, GWT, HTMX, Flowbite, WordPress</div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-list">Microsoft SQL Server, DocumentDB, DynamoDB, RDS, Oracle</div>
+                </div>
+                <div class="skill-category">
+                    <h3>Platforms</h3>
+                    <div class="skill-list">Cloudflare, Atlas, Google Firebase, Google BigQuery, OpenAI, MySQL, Postgres, Snowflake, AmazonMQ, AuroraDB, ElasticSearch, Oracle, RethinkDB, Redshift, RabbitMQ</div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-list">Swagger, Jenkins, Browser Stack, Open Telemetry, IPQS, Cursor, Sentry, GoRetro, Kameleoon, Hightouch CI/CD, PagerDuty, podman-compose, Moderne, CloudFlare, GA4, Datadom, Debug Bear, podman, memcached, NPM, Iterable, GTM, Docker, OpenAPI, VS Code, SonarCloud, GitHub, VPC, SalesForce, AdButler, Miro, Solr, CAS, Effect TS, isitup, Contentful, Slack, Twilio, Cypress, Elastic Cache, Jira, Lucidchart, DocumentDB, Confluence, TrustArc, WordSmith, BitBucket, Firebase</div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="experience">
+            <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+            
+            <div class="experience-item">
+                <div class="title-row">
+                    <h3>BOATS GROUP</h3>
+                    <span class="date">September 2021 - Present</span>
+                </div>
+                <h4>Senior Director of Software Engineering</h4>
+                <div class="location">Alpharetta, Georgia</div>
+                <ul>
+                    <li>Lead multiple engineering teams focused on dealer/broker platforms, FSBO solutions, customer support, and custom website development</li>
+                    <li>Spearheaded technical debt remediation initiatives, successfully migrating legacy systems to modern technology stacks while maintaining business continuity</li>
+                    <li>Implemented structured quality assurance methodologies and Root Cause Analysis process, reducing production defects and accelerating delivery timelines</li>
+                    <li>Established robust 24/7 on-call support systems with clear escalation paths and continuous improvement mechanisms</li>
+                    <li>Created documentation standards that enhanced support capabilities and streamlined knowledge transfer</li>
+                    <li>Developed and managed technology roadmaps aligned with business objectives and market trends</li>
+                    <li>Collaborated with product teams on wireframes and designs, ensuring alignment between technical capabilities and business goals</li>
+                    <li>Led AI adoption initiatives across teams, implementing practical solutions that enhanced productivity</li>
+                    <li>Managed headcount planning, resource allocation, and technology investment decisions</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="title-row">
+                    <h3>BOATS GROUP</h3>
+                    <span class="date">May 2020 - June 2022</span>
+                </div>
+                <h4>Director of Business Intelligence</h4>
+                <ul>
+                    <li>Established data governance frameworks to expand data stewardship across the organization</li>
+                    <li>Transformed requirements assessment, development estimation, and QA processes</li>
+                    <li>Gained expertise in ETLs, stored procedures, and Microsoft SQL Server implementations</li>
+                    <li>Built cross-functional communication channels between technical teams and business divisions</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="title-row">
+                    <h3>BOATS GROUP</h3>
+                    <span class="date">June 2019 - September 2021</span>
+                </div>
+                <h4>Director of Software Development</h4>
+                <div class="location">Miami/Fort Lauderdale Area</div>
+                <ul>
+                    <li>Directed software development across multiple portals including BoatTrader, YachtWorld, and Boats.com</li>
+                    <li>Managed international platforms, custom websites, and mobile development initiatives</li>
+                    <li>Ensured timely delivery of projects based on business expectations and requirements</li>
+                    <li>Created custom website solutions with efficient delivery processes and rapid turnaround times</li>
+                    <li>Recruited specialized front-end engineering talent and implemented efficient delivery workflows</li>
+                    <li>Standardized components and established reusable design patterns, reducing development time while maintaining quality</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="title-row">
+                    <h3>ULTIMATE SOFTWARE</h3>
+                    <span class="date">March 2018 - May 2019</span>
+                </div>
+                <h4>Sr Software Development Manager</h4>
+                <ul>
+                    <li>Managed desktop imaging, G Suite administration, database administration, and DevOps teams</li>
+                    <li>Crafted learning paths to develop technical expertise and team collaboration skills</li>
+                    <li>Worked with teams to develop multi-year technical roadmaps with measurable implementation goals</li>
+                    <li>Created strategic vision for operational systems and infrastructure improvements</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="title-row">
+                    <h3>ULTIMATE SOFTWARE</h3>
+                    <span class="date">October 2016 - March 2018</span>
+                </div>
+                <h4>Sr Software Development Manager</h4>
+                <ul>
+                    <li>Led internal tools application development team in Information Services</li>
+                    <li>Transformed delivery model from quarterly to weekly deployments</li>
+                    <li>Advocated for technical excellence and elevated quality standards across development, testing, and processes</li>
+                    <li>Provided clear, actionable goals for team members that energized performance</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="title-row">
+                    <h3>ULTIMATE SOFTWARE</h3>
+                    <span class="date">April 2016 - October 2016</span>
+                </div>
+                <h4>Software Development Manager</h4>
+                <div class="location">Weston, FL</div>
+                <ul>
+                    <li>Managed development team creating internal employee-facing applications</li>
+                    <li>Provided technical guidance and coaching to developers, QA engineers, and business analysts</li>
+                    <li>Facilitated cross-functional coordination and planning with other team leads</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="title-row">
+                    <h3>ORBITZ WORLDWIDE</h3>
+                    <span class="date">January 2006 - March 2016</span>
+                </div>
+                <h4>Software Development Manager</h4>
+                <div class="location">Greater Chicago Area</div>
+                <ul>
+                    <li>Led development team focused on traffic direction (meta, SEO, SEM, email) to Orbitz branded sites</li>
+                    <li>Implemented Scrum and Kanban methodologies to ensure timely feature delivery</li>
+                    <li>Developed internal applications to optimize landing page conversion and traffic management</li>
+                    <li>Worked with stakeholders to understand, prioritize, and estimate resources for new features</li>
+                    <li>Managed Test and Learn platform enabling site experiments across all brands</li>
+                    <li>Built trust relationships with business partners across traffic segments</li>
+                    <li>Coached remote and local direct reports to excel in their development careers</li>
+                </ul>
+                <p style="font-style: italic; margin-top: 0.5rem; font-size: 14px;">Prior roles at Orbitz included: Technical Lead (March 2012 - March 2014), Senior Software Engineer (March 2009 - March 2012), Engineer 2 (December 2007 - March 2009)</p>
+            </div>
+        </section>
+        
+        <section class="education">
+            <div class="section-title">EDUCATION</div>
+            <div class="education-item">
+                <h3>University of Texas at Dallas:</h3>
+                <p>Master of Science in Software Engineering</p>
+            </div>
+            <div class="education-item">
+                <h3>Digital MBA for Technology Leaders:</h3>
+                <p>Professional Certification</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
